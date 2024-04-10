@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    bottom: 0%;
+    background-color: rgb(240,242,245);
+    /* top: -130px; */
+    height: 620px;
+    /* height: auto; */
+    width: 1260px;
+    margin: 0% auto;
+    display: flex;
+    
+}
+
+.contacts{
+width: 30%;
+height: auto;
+border: solid 1px rgb(183, 187, 194);
+background-color: white;
+}
+.contacts>header{
+    /* position: fixed; */
+    /* margin-right: 5px; */
+    width: auto;
+    padding: 15px;
+    display: flex;
+    background-color:rgb(240,242,245);
+}
+.contacts>header>div:nth-child(2){
+   display: flex;
+    width: 60%;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.contacts>header>div:nth-child(1){
+    /* position: absolute; */
+    width: 40%;
+    padding: 2px;
+}
+.contacts>header>input{
+    height:30px ;
+    width: 100%;
+}
+#second-header{
+    /* position: sticky; */
+    background-color: white;
+    /* margin-top: 100px; */
+    padding: 5px;
+    align-items: center;
+}
+#search-bar{
+    height: 45px;
+    width: 90%;
+    display: flex;
+    padding: 5px;
+    background-color: rgb(240,242,245);
+    border-radius: 20px; 
+    align-items: center;
+    border-bottom: solid 0.2px rgb(240,242,245);
+}
+.contacts>div>i,input{
+    margin: 20px;
+}
+#search{
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+}
+
+#person-tag{
+    /* display: none; */
+     flex-direction: column;
+     overflow: scroll;
+     width: 100%;
+     height: 70%;
+     padding: 10px;
+     margin: 10px;
+ }
+ #person-tag1{
+     display: flex;
+     padding-right: 5px;
+     align-items: center;
+     margin-bottom: 5px;
+     background-color: rgb(230, 236, 240);
+ }
+ #person-tag1>div{
+ padding-left: 30px;
+ }
+ #person-tag1:hover{
+     border: 0.1px;
+     border-radius: 20px;
+     box-shadow: 10px 10px  10px 10px rgb(240,242,245);
+     background-color: rgb(216, 221, 225);
+ }
+ #person-info{
+    padding: 10px;
+    margin: 10px;
+ }
+ 
+.chats{
+    position: relative;    
+    height: auto;
+    width: 70%;
+    border: solid 1px rgb(177, 180, 184); 
+    background-color: white;
+    }
+.chats>header{
+    padding: 18px;
+    display: flex;
+    background-color:rgb(240,242,245);
+    justify-content: space-between;
+    }
+.chats>header>div:nth-child(1){
+    display: flex;
+}
+.chats>header>div>div{
+    padding-left: 25px;
+}
+#chat-write{
+    flex-direction: column;
+     overflow: scroll;
+     width: 100%;
+     height: 80%;
+     background-image: url(assets/4k-marvel-1920X1200-wallpaper-i0k20xkjhy0vco3i.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 80%;
+     scroll-behavior: smooth;
+}
+.chats>footer{
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    background-color:rgb(240,242,245);
+    width: 100%;
+    /* padding: 5px; */
+    
+}
+#typing-bar{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    background-color: rgb(240,242,245);
+    border-radius: 20px; 
+    align-items: center;
+    margin: 10px;
+   
+}
+.chats>div>i,input{
+    margin: 10px;
+
+}
+#search1{
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+}
+
+.chats>div{
+    /* height: 100%; */
+    height: auto;
+    width: 100%;
+    /* background-color: bisque; */
+}
